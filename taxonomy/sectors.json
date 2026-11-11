@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "note": "Controlled vocabulary for the impersonated_sector field. Must stay identical to the schema enum; scripts/check_taxonomy_consistency.py enforces this.",
+  "sectors": [
+    {"id": "financial_service", "label": "Financial service", "definition": "A bank, fintech, card scheme, or other financial institution is impersonated."},
+    {"id": "government", "label": "Government or public authority", "definition": "A government agency, regulator, tax authority, or public institution is impersonated."},
+    {"id": "telecommunications", "label": "Telecommunications", "definition": "A mobile network operator or telecom provider is impersonated."},
+    {"id": "employer", "label": "Employer or recruiter", "definition": "An employer, recruiter, or workplace is impersonated."},
+    {"id": "delivery_logistics", "label": "Delivery or logistics", "definition": "A courier, postal service, customs, or logistics provider is impersonated."},
+    {"id": "family_or_friend", "label": "Family or friend", "definition": "A known personal contact is impersonated (for example, a relative in claimed distress)."},
+    {"id": "charity", "label": "Charity or appeal", "definition": "A charity, relief fund, or donation appeal is impersonated."},
+    {"id": "technology_provider", "label": "Technology provider", "definition": "A software, platform, or device-security provider is impersonated."},
+    {"id": "investment_service", "label": "Investment service", "definition": "An investment, trading, or returns platform is impersonated."},
+    {"id": "none", "label": "None", "definition": "No specific organisation or person is impersonated."},
+    {"id": "other", "label": "Other", "definition": "An impersonated sector not represented above; requires a documented rationale."},
+    {"id": "unknown", "label": "Unknown", "definition": "The impersonated sector is not determinable from the pattern."}
+  ]
+}

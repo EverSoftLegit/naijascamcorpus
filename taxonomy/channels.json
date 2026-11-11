@@ -1,0 +1,4 @@
+{
+  "version": "0.1.0",
+  "channels": ["sms", "messaging_app", "email", "voice_call", "social_media", "website", "online_ad", "in_person", "multiple", "other", "unknown"]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "note": "Controlled vocabulary for the requested_actions field. Must stay identical to the schema enum; scripts/check_taxonomy_consistency.py enforces this.",
+  "requested_actions": [
+    {"id": "send_money", "label": "Send money", "definition": "The target is asked to transfer funds or make a payment."},
+    {"id": "share_otp", "label": "Share one-time code", "definition": "The target is asked to reveal a one-time password or verification code."},
+    {"id": "disclose_credentials", "label": "Disclose credentials", "definition": "The target is asked to reveal a username, password, PIN, or similar secret."},
+    {"id": "click_link", "label": "Click a link", "definition": "The target is directed to open a link. Records never contain a real or live URL."},
+    {"id": "install_app", "label": "Install an app", "definition": "The target is asked to install software or an application."},
+    {"id": "call_number", "label": "Call a number", "definition": "The target is asked to call a phone number. Records never contain a real number."},
+    {"id": "share_identity_document", "label": "Share an identity document", "definition": "The target is asked to provide an identity document or its details."},
+    {"id": "provide_personal_data", "label": "Provide personal data", "definition": "The target is asked for personal data such as date of birth or address."},
+    {"id": "approve_transaction", "label": "Approve a transaction", "definition": "The target is asked to approve or authorise a transaction or request."},
+    {"id": "other", "label": "Other", "definition": "A requested action not represented above; requires a documented rationale."}
+  ]
+}

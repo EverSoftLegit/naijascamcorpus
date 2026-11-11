@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this project or a dataset release, cite the exact version and dataset card."
+title: "NaijaScamCorpus"
+type: software
+authors:
+  - name: "NaijaScamCorpus Community"
+version: 0.1.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/REPLACE_OWNER/naijascamcorpus"

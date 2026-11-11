@@ -1,0 +1,39 @@
+name: Taxonomy or annotation proposal
+description: Propose a change to labels, definitions, or annotation methodology.
+title: "[Taxonomy]: "
+labels: ["taxonomy", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic examples only. Do not submit real incident text, victim information, or operational indicators."
+  - type: input
+    id: proposed-label
+    attributes:
+      label: Proposed label or change
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition and scope
+    validations:
+      required: true
+  - type: textarea
+    id: distinction
+    attributes:
+      label: How is this different from existing labels?
+    validations:
+      required: true
+  - type: textarea
+    id: synthetic-example
+    attributes:
+      label: Synthetic example
+      description: Begin with SYNTHETIC EXAMPLE. Do not copy a real message.
+    validations:
+      required: true
+  - type: textarea
+    id: regional-language-notes
+    attributes:
+      label: Regional or language considerations
+    validations:
+      required: false

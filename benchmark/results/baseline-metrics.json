@@ -1,0 +1,264 @@
+{
+  "dataset": "data/v0.1/synthetic/records.jsonl",
+  "records": 48,
+  "classes": 12,
+  "protocol": "leave-one-out cross-validation",
+  "deterministic": true,
+  "models": {
+    "majority_class": {
+      "accuracy": 0.0833,
+      "macro_f1": 0.0128,
+      "predicts": "account_takeover"
+    },
+    "naive_bayes": {
+      "accuracy": 0.75,
+      "macro_f1": 0.7484,
+      "n": 48,
+      "per_class": {
+        "account_takeover": {
+          "precision": 0.375,
+          "recall": 0.75,
+          "f1": 0.5,
+          "support": 4
+        },
+        "advance_fee": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 4
+        },
+        "charity_disaster": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "support": 4
+        },
+        "delivery": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "support": 4
+        },
+        "employment": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 4
+        },
+        "impersonation": {
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333,
+          "support": 4
+        },
+        "investment": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "support": 4
+        },
+        "mobile_money": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "other": {
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 4
+        },
+        "payment_redirection": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "romance_relationship": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 4
+        },
+        "technical_support": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "support": 4
+        }
+      },
+      "confusion": {
+        "account_takeover": {
+          "account_takeover": 3,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 1,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "advance_fee": {
+          "account_takeover": 0,
+          "advance_fee": 4,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "charity_disaster": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 3,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 1,
+          "technical_support": 0
+        },
+        "delivery": {
+          "account_takeover": 2,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 2,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "employment": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 3,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 1,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "impersonation": {
+          "account_takeover": 2,
+          "advance_fee": 1,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 1,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "investment": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 1,
+          "impersonation": 0,
+          "investment": 2,
+          "mobile_money": 0,
+          "other": 1,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "mobile_money": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 4,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "other": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 4,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "payment_redirection": {
+          "account_takeover": 0,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 4,
+          "romance_relationship": 0,
+          "technical_support": 0
+        },
+        "romance_relationship": {
+          "account_takeover": 0,
+          "advance_fee": 1,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 3,
+          "technical_support": 0
+        },
+        "technical_support": {
+          "account_takeover": 1,
+          "advance_fee": 0,
+          "charity_disaster": 0,
+          "delivery": 0,
+          "employment": 0,
+          "impersonation": 0,
+          "investment": 0,
+          "mobile_money": 0,
+          "other": 0,
+          "payment_redirection": 0,
+          "romance_relationship": 0,
+          "technical_support": 3
+        }
+      }
+    }
+  },
+  "caveat": "Synthetic data only. Scores characterise this dataset and do not indicate real-world detection accuracy."
+}

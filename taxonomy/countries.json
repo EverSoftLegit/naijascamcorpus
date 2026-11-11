@@ -1,0 +1,5 @@
+{
+  "version": "0.1.0",
+  "guidance": "Use ISO 3166-1 alpha-2 country codes. Country metadata describes the context of a pattern; it does not identify a victim or prove national prevalence.",
+  "example_codes": ["NG", "GH", "KE", "ZA", "UG", "TZ", "RW", "ZM", "MZ", "EG", "MA", "SN"]
+}

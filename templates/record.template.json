@@ -1,0 +1,25 @@
+{
+  "record_id": "NSC-EXAMPLE-0001",
+  "record_version": "1.0.0",
+  "record_type": "synthetic_pattern",
+  "countries": ["NG"],
+  "languages": ["en-NG"],
+  "channel": "sms",
+  "scam_family": "impersonation",
+  "impersonated_sector": "financial_service",
+  "persuasion_tactics": ["urgency", "authority_claim"],
+  "requested_actions": ["share_otp"],
+  "pattern_summary": "A fictional message claims that an account will be restricted unless the recipient shares a one-time code.",
+  "synthetic_example": "SYNTHETIC EXAMPLE: A fictional service message asks the recipient to share a one-time code to prevent an invented account restriction.",
+  "source": {
+    "source_kind": "synthetic",
+    "reference": null,
+    "published_date": null,
+    "methodology": "Authored for schema demonstration; not copied from a real message or incident."
+  },
+  "confidence": "not_applicable_synthetic",
+  "review_status": "approved_synthetic",
+  "privacy_review": "passed",
+  "limitations": ["Fictional example; not evidence of an actual incident or prevalence."],
+  "record_license": "CC-BY-4.0"
+}

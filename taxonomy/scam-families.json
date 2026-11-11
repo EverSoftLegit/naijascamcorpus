@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "families": [
+    {"id": "impersonation", "label": "Impersonation", "definition": "A message or interaction falsely presents itself as a trusted person, organisation, service, or authority."},
+    {"id": "advance_fee", "label": "Advance-fee", "definition": "A target is asked to pay or provide value upfront to receive a promised benefit that is fictitious or misrepresented."},
+    {"id": "investment", "label": "Investment opportunity", "definition": "A deceptive investment, trading, or return-generating proposition."},
+    {"id": "employment", "label": "Employment or recruitment", "definition": "A deceptive job, recruitment, task, or employment-related proposition."},
+    {"id": "romance_relationship", "label": "Romance or relationship", "definition": "A relationship-based deception used to obtain money, credentials, or other value."},
+    {"id": "account_takeover", "label": "Account takeover", "definition": "A pattern intended to obtain access to or control of a victim's account."},
+    {"id": "payment_redirection", "label": "Payment redirection", "definition": "A target is induced to send money to an unintended recipient or destination."},
+    {"id": "mobile_money", "label": "Mobile-money abuse", "definition": "A deceptive pattern targeting mobile-money services or transactions."},
+    {"id": "delivery", "label": "Delivery or parcel", "definition": "A deceptive delivery, customs, parcel, or shipment-related proposition."},
+    {"id": "charity_disaster", "label": "Charity or disaster appeal", "definition": "A deceptive donation or assistance appeal."},
+    {"id": "technical_support", "label": "Technical support", "definition": "A deceptive support or device-security interaction intended to obtain access or value."},
+    {"id": "other", "label": "Other or emerging", "definition": "A pattern not adequately represented by an existing family; requires a documented rationale."}
+  ]
+}
